@@ -1,0 +1,663 @@
+body {
+    overflow-x: hidden;
+    
+}
+
+/*====================== navbar  CSS start ================================*/
+
+
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.d-flex.search-padding {
+    padding-right: 10px;
+}
+
+/*====================== navbar  CSS end ================================*/
+
+
+
+/* =================================== Footer CSS start =================================== */
+
+.footer-social-icon img {
+    width: 25px;
+    
+}
+
+.footer-row-padding {
+    padding-left: 50px;
+    padding-bottom: 10px;
+   
+}
+
+.footer-text-padding {
+
+    padding-left: 3%;
+
+}
+
+
+.footer-social-pad{
+
+    padding-right: 50px;
+}
+
+.footer-subs-marg{
+
+    margin-left: 12%;
+}
+/* ================================ Footer CSS End ========================================  */
+
+
+
+/*================================= home page css start ======================================*/
+
+.carousel-inner.home img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 620px;
+    margin-top: 40px;
+}
+
+/*-------------- Featurettes ------------------------- */
+
+.featurette-divider {
+    margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the  headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.05rem;
+}
+
+/* ------------- responsive css--------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 1rem;
+        
+    }
+}
+
+
+
+
+
+/*================================= home page css end ======================================*/
+
+
+
+
+/*============================== member page css start =================================*/
+
+.member-form {
+    padding-top: 200px;
+    height: 800px;
+
+    color: black;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1f1f1f;
+    border-color: #252629;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    border: 0.1px solid rgb(71, 59, 46);
+
+    border-radius: 8px;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+/*============================== member page css end =================================*/
+
+
+
+
+/*======================================= About Page start =================================*/
+
+.about-main {
+    margin-top: 100px;
+    /* height: 100%; */
+    text-justify: auto;
+}
+
+.abt-youtvid{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.newsizecc {
+    height: 100%;
+}
+
+.about-heading {
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+/*======================================= About Page end =================================*/
+
+
+
+
+/*======================================== gallery page start ===============================*/
+
+.Galmain {
+    margin-top: 5%;
+}
+
+.gallery-heading {
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+
+/*--------------------- gallery modal start -------------------------------*/
+
+/* Style the Image Used to Trigger the Modal */
+#myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg1:hover {opacity: 0.7;}
+  
+
+  #myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg2:hover {opacity: 0.7;}
+
+
+  #myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg3:hover {opacity: 0.7;}
+
+
+  #myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg4:hover {opacity: 0.7;}
+
+  #myImg5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg5:hover {opacity: 0.7;}
+
+
+  #myImg6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg6:hover {opacity: 0.7;}
+
+
+  #myImg7 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg7:hover {opacity: 0.7;}
+
+
+  #myImg8 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg8:hover {opacity: 0.7;}
+
+  #myImg9 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg9:hover {opacity: 0.7;}
+
+
+  #myImg10 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg10:hover {opacity: 0.7;}
+
+  #myImg11 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg11:hover {opacity: 0.7;}
+
+  #myImg12 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg12:hover {opacity: 0.7;}
+
+
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    max-width: 100%;
+    max-height: 100px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+/* ---------------------gallery modal end --------------------------*/
+
+
+/* -----------------gal grid start----------------------- */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 10px;
+}
+
+img.w-100.shadow-1-strong.rounded.mb-4 {
+    border: 1px solid #343a40;
+}
+.gallery__img {
+    border-radius: 5px;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.gallery__item--5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+
+.gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+/* -----------------gal grid end --------------*/
+
+/*======================================== gallery page end ===============================*/
+
+
+
+
+/*========================== contact us page  css start ============================== */
+
+.contactus-form {
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+    /* width: 50%; */
+}
+
+.contactus-heading {
+    margin-bottom: 40px;
+    /* margin-left: 10px; */
+}
+
+.contactus {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.Contactmain1 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.Contactmain2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Contactmain2 iframe {
+    width: 80%;
+    height: 200px;
+}
+
+.contact-box-outline {
+    border: 0.1rem solid rgb(153, 152, 150);
+    border-radius: 7px;
+    margin-bottom: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+/*========================== contact us page  css end ============================== */
+
+
+
+
+/* ============================== Store page start ============================================ */
+
+.store-header.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 0 !important;
+}
+
+.d-flex.cart-padding {
+    padding-right: 10px;
+}
+
+
+/* ============================== Store page start ============================================ */
+
+
+
+
+/* =================================== menu page css start ===============================  */
+
+.menu-header.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 0 !important;
+}
+
+
+
+/* --------------menu-items start ------------- */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.menu {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.menu h3 {
+    margin-top: 20px;
+}
+
+.menu-group-heading {
+    margin: 0;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #ccc;
+}
+
+.menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-item-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+
+.menu-item-text {
+    flex-grow: 1;
+}
+
+.menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.menu-item-name {
+    margin-right: 1.5em;
+}
+
+.menu-item-description {
+    line-height: 1.6;
+}
+
+@media screen and (min-width: 992px) {
+    .menu {
+        font-size: 14px;
+    }
+
+    .menu-group {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu-item-image {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+/* ------------menu items end----------------- */
+
+/* =================================== menu page css end ===============================  */
+
+
+
+
+/* ========================= Image effect start =============================== */
+img:hover {
+    transform: scale(1.05);
+    transition: all 0.25s;
+}
+
+/* ========================= Image effect end =============================== */
+
+/* generic padding */
+
+.genr-marg{
+
+margin-left: 5%;
+margin-right: 10%;
+margin-bottom: 19%;
+
+}
+
+/* generic padding end */
+
+/* =================================== admin page css start ===============================  */
+
+
+
+.info-container {
+    display: flex;
+    align-items: start;  /* Aligns the content to the top */
+    gap: 20px;  /* Adds some space between the image and text */
+}
+
+.info-image {
+    flex-shrink: 0; /* This ensures that the image does not shrink */
+    width: 130px;
+    height: 145px; /* Set to your preferred height */
+    object-fit: cover;
+}
+
+.info-text {
+    flex-grow: 1; /* Allows the text to take up the remaining space */
+}
+
+.panelloggedas{
+padding-top: 100px;
+
+}
+
+.panelform{
+    margin-top: -70px;
+    
+    }
+
+  
